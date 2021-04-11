@@ -1,0 +1,124 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: camdenorrb <5360339+camdenorrb@users.noreply.github.com>
+Date: Sun, 11 Apr 2021 16:48:56 -0500
+Subject: [PATCH] Update a lot of dependencies and use Java 15
+
+
+diff --git a/pom.xml b/pom.xml
+index ab57297272c2d6f3d21067081bcaf8775b8fff09..35dc5caf99b35a8073c9952905ee679713341d96 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -14,8 +14,8 @@
+         <bt.name>git</bt.name>
+         <minecraft.version>1.16.5</minecraft.version>
+         <minecraft_version>1_16_R3</minecraft_version>
+-        <maven.compiler.source>1.8</maven.compiler.source>
+-        <maven.compiler.target>1.8</maven.compiler.target>
++        <maven.compiler.source>15</maven.compiler.source>
++        <maven.compiler.target>15</maven.compiler.target>
+     </properties>
+ 
+     <parent>
+@@ -30,7 +30,7 @@
+             <dependency>
+                 <groupId>org.apache.logging.log4j</groupId>
+                 <artifactId>log4j-bom</artifactId>
+-                <version>2.11.2</version>
++                <version>2.14.1</version>
+                 <type>pom</type>
+                 <scope>import</scope>
+             </dependency>
+@@ -64,7 +64,7 @@
+         <dependency>
+             <groupId>org.jline</groupId>
+             <artifactId>jline-terminal-jansi</artifactId>
+-            <version>3.12.1</version>
++            <version>3.19.0</version>
+             <scope>runtime</scope>
+         </dependency>
+         <!--
+@@ -85,7 +85,7 @@
+         </dependency>
+         <dependency>
+             <groupId>org.apache.logging.log4j</groupId>
+-            <artifactId>log4j-slf4j-impl</artifactId>
++            <artifactId>log4j-slf4j18-impl</artifactId>
+             <scope>runtime</scope>
+         </dependency>
+         <dependency>
+@@ -115,7 +115,7 @@
+         <dependency>
+             <groupId>io.netty</groupId>
+             <artifactId>netty-all</artifactId>
+-            <version>4.1.50.Final</version>
++            <version>4.1.63.Final</version>
+         </dependency>
+         <!-- deprecated API depend -->
+         <dependency>
+@@ -140,7 +140,7 @@
+         <dependency>
+             <groupId>junit</groupId>
+             <artifactId>junit</artifactId>
+-            <version>4.13.1</version>
++            <version>4.13.2</version>
+             <scope>test</scope>
+         </dependency>
+         <dependency>
+@@ -153,7 +153,7 @@
+         <dependency>
+             <groupId>io.github.classgraph</groupId>
+             <artifactId>classgraph</artifactId>
+-            <version>4.8.47</version>
++            <version>4.8.104</version>
+             <scope>test</scope>
+         </dependency>
+     </dependencies>
+@@ -227,7 +227,7 @@
+             <plugin>
+                 <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-shade-plugin</artifactId>
+-                <version>3.2.3</version>
++                <version>3.2.4</version>
+                 <executions>
+                     <execution>
+                         <phase>package</phase>
+@@ -320,7 +320,7 @@
+                     <dependency>
+                         <groupId>com.github.edwgiz</groupId>
+                         <artifactId>maven-shade-plugin.log4j2-cachefile-transformer</artifactId>
+-                        <version>2.13.1</version>
++                        <version>2.14.0</version>
+                     </dependency>
+                 </dependencies>
+             </plugin>
+@@ -337,7 +337,7 @@
+                     <dependency>
+                         <groupId>org.eclipse.jdt</groupId>
+                         <artifactId>ecj</artifactId>
+-                        <version>3.24.0</version>
++                        <version>3.25.0</version>
+                     </dependency>
+                 </dependencies>
+             </plugin>
+diff --git a/src/main/java/org/bukkit/craftbukkit/Main.java b/src/main/java/org/bukkit/craftbukkit/Main.java
+index 23389d0a0e7bd8aeb2f1ab0ea6a149ef99e800fb..b9a5c36ed1a4f39ef7699787ac16a21d28863f64 100644
+--- a/src/main/java/org/bukkit/craftbukkit/Main.java
++++ b/src/main/java/org/bukkit/craftbukkit/Main.java
+@@ -15,6 +15,8 @@ import joptsimple.OptionSet;
+ import net.minecraft.util.ExceptionSuppressor;
+ import net.minecraft.world.level.lighting.LightEngineLayerEventListener;
+ import net.minecrell.terminalconsole.TerminalConsoleAppender; // Paper
++import org.apache.logging.log4j.core.impl.ThrowableProxy;
++
+ 
+ public class Main {
+     public static boolean useJline = true;
+@@ -180,7 +182,7 @@ public class Main {
+         tryPreloadClass("org.apache.logging.log4j.core.async.DisruptorUtil");
+         tryPreloadClass("org.apache.logging.log4j.core.async.RingBufferLogEventHandler");
+         tryPreloadClass("org.apache.logging.log4j.core.impl.ThrowableProxy");
+-        tryPreloadClass("org.apache.logging.log4j.core.impl.ThrowableProxy$CacheEntry");
++        //tryPreloadClass("org.apache.logging.log4j.core.impl.ThrowableProxy$CacheEntry");
+         tryPreloadClass("org.apache.logging.log4j.core.impl.ExtendedClassInfo");
+         tryPreloadClass("org.apache.logging.log4j.core.impl.ExtendedStackTraceElement");
+         // Paper end
