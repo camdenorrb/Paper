@@ -32,7 +32,7 @@ public class CommandRegisteredEvent <S extends BukkitBrigadierCommandSource> ext
     private LiteralCommandNode<S> literal;
     private boolean cancelled = false;
 
-    public CommandRegisteredEvent(String commandLabel, BukkitBrigadierCommand<S> brigadierCommand, Command command, RootCommandNode<S> root, LiteralCommandNode<S> literal, ArgumentCommandNode<S, String> defaultArgs) {
+    public CommandRegisteredEvent(final String commandLabel, final BukkitBrigadierCommand<S> brigadierCommand, final Command command, final RootCommandNode<S> root, final LiteralCommandNode<S> literal, final ArgumentCommandNode<S, String> defaultArgs) {
         this.commandLabel = commandLabel;
         this.brigadierCommand = brigadierCommand;
         this.command = command;
@@ -87,7 +87,7 @@ public class CommandRegisteredEvent <S extends BukkitBrigadierCommandSource> ext
      * you want to completely replace the object.
      * @param literal
      */
-    public void setLiteral(LiteralCommandNode<S> literal) {
+    public void setLiteral(final LiteralCommandNode<S> literal) {
         this.literal = literal;
     }
 
@@ -106,7 +106,7 @@ public class CommandRegisteredEvent <S extends BukkitBrigadierCommandSource> ext
      * {@inheritDoc}
      */
     @Override
-    public void setCancelled(boolean cancel) {
+    public void setCancelled(final boolean cancel) {
         this.cancelled = cancel;
     }
 

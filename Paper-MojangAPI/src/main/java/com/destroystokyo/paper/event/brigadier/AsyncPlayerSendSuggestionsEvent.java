@@ -20,7 +20,7 @@ public class AsyncPlayerSendSuggestionsEvent extends PlayerEvent implements Canc
     private Suggestions suggestions;
     private final String buffer;
 
-    public AsyncPlayerSendSuggestionsEvent(Player player, Suggestions suggestions, String buffer) {
+    public AsyncPlayerSendSuggestionsEvent(final Player player, final Suggestions suggestions, final String buffer) {
         super(player, !Bukkit.isPrimaryThread());
         this.suggestions = suggestions;
         this.buffer = buffer;
@@ -43,7 +43,7 @@ public class AsyncPlayerSendSuggestionsEvent extends PlayerEvent implements Canc
     /**
      * @param suggestions The suggestions to be sent to client if need to change them
      */
-    public void setSuggestions(Suggestions suggestions) {
+    public void setSuggestions(final Suggestions suggestions) {
         this.suggestions = suggestions;
     }
 
@@ -60,7 +60,7 @@ public class AsyncPlayerSendSuggestionsEvent extends PlayerEvent implements Canc
      * {@inheritDoc}
      */
     @Override
-    public void setCancelled(boolean cancel) {
+    public void setCancelled(final boolean cancel) {
         this.cancelled = cancel;
     }
 

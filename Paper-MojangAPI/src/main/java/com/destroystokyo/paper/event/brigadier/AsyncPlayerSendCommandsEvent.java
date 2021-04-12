@@ -33,7 +33,7 @@ public class AsyncPlayerSendCommandsEvent <S extends BukkitBrigadierCommandSourc
     private final RootCommandNode<S> node;
     private final boolean hasFiredAsync;
 
-    public AsyncPlayerSendCommandsEvent(Player player, RootCommandNode<S> node, boolean hasFiredAsync) {
+    public AsyncPlayerSendCommandsEvent(final Player player, final RootCommandNode<S> node, final boolean hasFiredAsync) {
         super(player, !Bukkit.isPrimaryThread());
         this.node = node;
         this.hasFiredAsync = hasFiredAsync;
