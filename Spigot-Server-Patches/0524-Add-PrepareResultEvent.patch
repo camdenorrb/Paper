@@ -106,7 +106,7 @@ index cfcb2469569edd51bbb74ca8d7a35a1ec0ecb434..1589d9ca201d386d11d9fd57fa8ba684
  
      private void a(IInventory iinventory, ItemStack itemstack) {
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index 4fc9d8af25808a53bf479b085c82047ede6c5360..be2aa53a45b98d6d6de0c464653264399510d630 100644
+index 0b6ce7a3c077982a5f341baf3049e6ce66eaa194..2e4dc2fb42b10243ddacbf5af606910a5769ea01 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -1512,19 +1512,44 @@ public class CraftEventFactory {

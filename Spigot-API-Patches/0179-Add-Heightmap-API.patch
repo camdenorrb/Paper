@@ -103,7 +103,7 @@ index d5d67b3d84cd88ed0f858497e68535ec0162c700..432d5711b7ec34eafeb27df82d367612
       * Creates explosion at this location with given power
       *
 diff --git a/src/main/java/org/bukkit/World.java b/src/main/java/org/bukkit/World.java
-index 19060c7d9c74b9b2808103f3d5627444aece6ccb..f8e104d5e61e52c5fe658d7cda373f62424c7bea 100644
+index f5fa91c9779faa0c89503b17553dc4d506bad20c..a3f34c2cd6b9683cc84b32886555628ebde79722 100644
 --- a/src/main/java/org/bukkit/World.java
 +++ b/src/main/java/org/bukkit/World.java
 @@ -160,6 +160,87 @@ public interface World extends PluginMessageRecipient, Metadatable, net.kyori.ad

@@ -5,7 +5,7 @@ Subject: [PATCH] Add PlayerAttackEntityCooldownResetEvent
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/EntityLiving.java b/src/main/java/net/minecraft/world/entity/EntityLiving.java
-index b33f57bc72333a2fee785cb95eb6be09892b136d..f2721cf55dd8edc7376b27250f83029e2b3b4e93 100644
+index dc9e12c38d1682f6c4558ca07b781de2226c0621..850225509a5398ddcc9335bf88e99bde662bfc91 100644
 --- a/src/main/java/net/minecraft/world/entity/EntityLiving.java
 +++ b/src/main/java/net/minecraft/world/entity/EntityLiving.java
 @@ -1931,7 +1931,16 @@ public abstract class EntityLiving extends Entity {

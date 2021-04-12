@@ -5,7 +5,7 @@ Subject: [PATCH] Add CraftMagicNumbers.isSupportedApiVersion()
 
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/util/CraftMagicNumbers.java b/src/main/java/org/bukkit/craftbukkit/util/CraftMagicNumbers.java
-index 83d056f2696498ec6e5d12a1602f8fcb833734c0..e60ee5f6bd990ce89a130a85b6821c5b7f346ae8 100644
+index ae613c319fa6b760b30a932a8e67c97dc2fd019a..79ac4e1f3aad1a855a5d7ef7df2a3bfd1c4362f2 100644
 --- a/src/main/java/org/bukkit/craftbukkit/util/CraftMagicNumbers.java
 +++ b/src/main/java/org/bukkit/craftbukkit/util/CraftMagicNumbers.java
 @@ -355,6 +355,11 @@ public final class CraftMagicNumbers implements UnsafeValues {

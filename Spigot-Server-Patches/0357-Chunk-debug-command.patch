@@ -423,7 +423,7 @@ index 35d1444c5b75d9a3a6cface5dd70aea0a08ac89d..fbd33aef21b4539d249c367609a36491
 +    }
  }
 diff --git a/src/main/java/net/minecraft/server/level/ChunkProviderServer.java b/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
-index eb576566708d50c002e73aa746d2bc58b9b04c2b..b80c3bd702141ca4a88078386845d731b3ecc539 100644
+index b9bde85a90b429659e1a4ab111253cddd797368e..94af98e250fe7ef37c16d432c05c6f2b68625fe1 100644
 --- a/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
 +++ b/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
 @@ -46,7 +46,7 @@ import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap; // Paper

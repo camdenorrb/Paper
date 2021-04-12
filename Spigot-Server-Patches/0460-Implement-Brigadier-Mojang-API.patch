@@ -69,7 +69,7 @@ index eb2c9d2248a8647beee9960c5016a83f35aa1247..b5ee789c8dfb7f413ab60902ff3d2ef0
      public boolean hasPermission(int i) {
          // CraftBukkit start
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index 6a0e3bd8641c895decd83b80e3a715ea31a5cce7..839eb6a294a696c5abd0d5e005b70d9bdbf25f9b 100644
+index 9a8fd7e8a29b73e7b03e8eb13a80eb6daac0e755..f8c5bd70410b7736b01febac9ecd2b3349d932a2 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -768,8 +768,12 @@ public class PlayerConnection implements PacketListenerPlayIn {

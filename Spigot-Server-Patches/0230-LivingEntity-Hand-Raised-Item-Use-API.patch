@@ -6,7 +6,7 @@ Subject: [PATCH] LivingEntity Hand Raised/Item Use API
 How long an entity has raised hands to charge an attack or use an item
 
 diff --git a/src/main/java/net/minecraft/world/entity/EntityLiving.java b/src/main/java/net/minecraft/world/entity/EntityLiving.java
-index 61bd7afdafc77725c24c6af978578df0b2d8ca0f..189a00cb68ce9a9060117b79c5356ebb93d7fa62 100644
+index 4798eac1498ebeecf0476a61a093d3871c00d5a5..2b10ae84ee8e9f63382d732e8c051fc47f0c5d9f 100644
 --- a/src/main/java/net/minecraft/world/entity/EntityLiving.java
 +++ b/src/main/java/net/minecraft/world/entity/EntityLiving.java
 @@ -212,7 +212,7 @@ public abstract class EntityLiving extends Entity {

@@ -98,7 +98,7 @@ index 046b191e771ed9be337e095214a67febd768e5f6..b6b4eb9ac883cfdfab5f114767fb5cfb
  
      protected void l(double d0, double d1, double d2) {
 diff --git a/src/main/java/net/minecraft/world/entity/EntityLiving.java b/src/main/java/net/minecraft/world/entity/EntityLiving.java
-index 9d8f92c313829bb32c17907bf2ef23d069517dc3..c189a7051240bb357acf5075c98206a258409b0c 100644
+index a64b2953c43138491cdab3e3e24e2e7ed969e171..b3c2976a48c2349e5c22d58dd1ac64a02cd969d5 100644
 --- a/src/main/java/net/minecraft/world/entity/EntityLiving.java
 +++ b/src/main/java/net/minecraft/world/entity/EntityLiving.java
 @@ -189,7 +189,7 @@ public abstract class EntityLiving extends Entity {
@@ -346,7 +346,7 @@ index 9d3e01f7ad743dbe60685e9b111308ed06a0b4b7..2334a9a95ab0e2395744343a5a1e3d26
  
      public void injectScaledMaxHealth(Collection<AttributeModifiable> collection, boolean force) {
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index ecd3b31216616b0ffe239785e3942cfb4bfebcf8..0f8764f16b0719e9e370731dc02627e1a55e9708 100644
+index d65c521b6028d61eed8cd1c63f8f9e72f2aa0e3b..8ad6540fc4af95409d1c9169e3b0ed78310eeac5 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -18,6 +18,8 @@ import net.minecraft.network.protocol.game.PacketPlayInCloseWindow;

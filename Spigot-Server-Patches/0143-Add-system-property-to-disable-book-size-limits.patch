@@ -11,7 +11,7 @@ to make books with as much data as they want. Do not use this without
 limiting incoming data from packets in some other way.
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/inventory/CraftMetaBook.java b/src/main/java/org/bukkit/craftbukkit/inventory/CraftMetaBook.java
-index 123616ed018fbc4d69f46e65d5ff15734008a00d..34449ac7899abbc863266da1e6197873f80940b0 100644
+index af1f45bb8bbe380eec1dcdef1beacb06c9d932a8..418b5353cae3fa2ada948b416a3fd7422101ae5c 100644
 --- a/src/main/java/org/bukkit/craftbukkit/inventory/CraftMetaBook.java
 +++ b/src/main/java/org/bukkit/craftbukkit/inventory/CraftMetaBook.java
 @@ -40,6 +40,7 @@ public class CraftMetaBook extends CraftMetaItem implements BookMeta {

@@ -5,7 +5,7 @@ Subject: [PATCH] Move range check for block placing up
 
 
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index 316cb57870a6a3f568bb3d353540283b9d785976..bd6f3e9d321abcf039875dd5c9f7ccc59afd2dd2 100644
+index dc3f874b2a19d2d2c3890b7e1125cd1ec14cf673..1a7d863e3ca320a5b3e768e378693fcd1f45d27b 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -1660,15 +1660,19 @@ public class PlayerConnection implements PacketListenerPlayIn {

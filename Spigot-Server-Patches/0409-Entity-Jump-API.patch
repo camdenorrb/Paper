@@ -5,7 +5,7 @@ Subject: [PATCH] Entity Jump API
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/EntityLiving.java b/src/main/java/net/minecraft/world/entity/EntityLiving.java
-index 750c568201acf447f598343437e67cb039423111..89abfdd32f47eed07080ff9d70440f0940628b4d 100644
+index 02d3b792cc9769b5daa6fcac57f5cda320a2a29e..86c6a8fd4511dfe426cc1651d289f38b467d3029 100644
 --- a/src/main/java/net/minecraft/world/entity/EntityLiving.java
 +++ b/src/main/java/net/minecraft/world/entity/EntityLiving.java
 @@ -2876,8 +2876,10 @@ public abstract class EntityLiving extends Entity {

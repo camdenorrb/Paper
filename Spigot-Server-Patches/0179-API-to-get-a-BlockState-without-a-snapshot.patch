@@ -13,7 +13,7 @@ also Avoid NPE during CraftBlockEntityState load if could not get TE
 If Tile Entity was null, correct Sign to return empty lines instead of null
 
 diff --git a/src/main/java/net/minecraft/world/level/block/entity/TileEntity.java b/src/main/java/net/minecraft/world/level/block/entity/TileEntity.java
-index fd6364dfc68c2eb9f560e7bc403dea874193828e..3ff9e389fcf15044c2740fb884c9438428d7a681 100644
+index 9b44ca96669ce423e5649f11743226dfdd9ce746..48daa039ffa8ccb7b6f3ca47bdc56394addf9254 100644
 --- a/src/main/java/net/minecraft/world/level/block/entity/TileEntity.java
 +++ b/src/main/java/net/minecraft/world/level/block/entity/TileEntity.java
 @@ -47,6 +47,7 @@ public abstract class TileEntity implements net.minecraft.server.KeyedObject { /
@@ -56,7 +56,7 @@ index fd6364dfc68c2eb9f560e7bc403dea874193828e..3ff9e389fcf15044c2740fb884c94384
          return null;
      }
 diff --git a/src/main/java/org/bukkit/craftbukkit/block/CraftBlock.java b/src/main/java/org/bukkit/craftbukkit/block/CraftBlock.java
-index 7654c0f8b57785225ecaa0c22e34c92f1d058d21..e4fe55bb830cd43680de9d61652448b1ea879063 100644
+index d7bcdd80d1472411c200bf538fa07e2d2cc00951..783e470097239f65d0375295fb68438f2fa75b73 100644
 --- a/src/main/java/org/bukkit/craftbukkit/block/CraftBlock.java
 +++ b/src/main/java/org/bukkit/craftbukkit/block/CraftBlock.java
 @@ -316,6 +316,20 @@ public class CraftBlock implements Block {

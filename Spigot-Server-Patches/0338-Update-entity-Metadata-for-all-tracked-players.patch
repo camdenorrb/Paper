@@ -22,7 +22,7 @@ index e3cdea3c85d762af6984f3dbe544fdfe101f6ff6..6110d7723b70df5380338a42b5cbff34
          this.f.accept(packet);
          if (this.tracker instanceof EntityPlayer) {
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index 8f442eae6519c3d0658e6ed77ecfa7aa8161a0f2..5d4ab95ca7498671888580f68382667c2282d604 100644
+index bcaf4eb793d06bdb56e167c8480a7ed7af8f3fae..ec5b88ab4eb8ef3d73c67a92b7430dc7b4858aef 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -2285,7 +2285,14 @@ public class PlayerConnection implements PacketListenerPlayIn {

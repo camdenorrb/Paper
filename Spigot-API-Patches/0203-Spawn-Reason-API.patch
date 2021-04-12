@@ -5,7 +5,7 @@ Subject: [PATCH] Spawn Reason API
 
 
 diff --git a/src/main/java/org/bukkit/World.java b/src/main/java/org/bukkit/World.java
-index 476184db904d8a2e1347e1219e8ba196bf4da5cb..c1010e314144a65e12eaf5514d639a87f45891a9 100644
+index 9ca40c87da7dd6a3f14a6d914f1440061bd21043..ecf05e5a6e2c522741082b50fc20807ea02a8309 100644
 --- a/src/main/java/org/bukkit/World.java
 +++ b/src/main/java/org/bukkit/World.java
 @@ -1,6 +1,8 @@

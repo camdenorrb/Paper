@@ -9,7 +9,7 @@ from triggering monster spawns on a server.
 Also a highly more effecient way to blanket block spawns in a world
 
 diff --git a/src/main/java/net/minecraft/server/level/ChunkProviderServer.java b/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
-index 95af66ebb7849cbf2bcad6bc52aeb85ab2601b6c..eb576566708d50c002e73aa746d2bc58b9b04c2b 100644
+index 9ed97d5db81e3603ccccca7500420d7e401ef2a5..b9bde85a90b429659e1a4ab111253cddd797368e 100644
 --- a/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
 +++ b/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
 @@ -611,6 +611,15 @@ public class ChunkProviderServer extends IChunkProvider {

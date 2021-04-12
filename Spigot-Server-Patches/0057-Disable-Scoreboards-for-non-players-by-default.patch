@@ -25,7 +25,7 @@ index abbbe1786eb68af02f9d39650aad730ac44aac8a..3ac2ac3db9b1c271b3c21930bb137166
 +    }
  }
 diff --git a/src/main/java/net/minecraft/world/entity/Entity.java b/src/main/java/net/minecraft/world/entity/Entity.java
-index 40eb6bae8ca4e2b57d4f91547808eb00ac1fd455..b7df4d8eb3ccb9e8dc85898352f41c5c20abcb34 100644
+index 3c82d592903844b032e3fe4777dcb23be936cfc0..cfd7aec33628435ba7e12567c4c12d6db6130453 100644
 --- a/src/main/java/net/minecraft/world/entity/Entity.java
 +++ b/src/main/java/net/minecraft/world/entity/Entity.java
 @@ -2284,6 +2284,7 @@ public abstract class Entity implements INamableTileEntity, ICommandListener, ne
@@ -37,7 +37,7 @@ index 40eb6bae8ca4e2b57d4f91547808eb00ac1fd455..b7df4d8eb3ccb9e8dc85898352f41c5c
      }
  
 diff --git a/src/main/java/net/minecraft/world/entity/EntityLiving.java b/src/main/java/net/minecraft/world/entity/EntityLiving.java
-index 3598db4144141a8701a2879be13a81a8ee48018c..318c96ee92fc8c6f5926aeadaa597d32ad590974 100644
+index 4e22a5e6d01506a681639500e90228e97d5772bb..5b0b0366a5a9782ec92a81e485832d47523c7dd1 100644
 --- a/src/main/java/net/minecraft/world/entity/EntityLiving.java
 +++ b/src/main/java/net/minecraft/world/entity/EntityLiving.java
 @@ -741,6 +741,7 @@ public abstract class EntityLiving extends Entity {

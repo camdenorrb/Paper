@@ -5,7 +5,7 @@ Subject: [PATCH] Brand support
 
 
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index bd6f3e9d321abcf039875dd5c9f7ccc59afd2dd2..0d65ffcad016a5f3fa9ddf616bc549087bf1335b 100644
+index 1a7d863e3ca320a5b3e768e378693fcd1f45d27b..a0c3283f6ce6b9e4036f131d416a064d5a46a8b8 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -5,6 +5,7 @@ import com.google.common.primitives.Doubles;

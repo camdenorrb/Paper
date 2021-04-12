@@ -40,7 +40,7 @@ index da16b5773e182a10dca8c91b53b9aba7e924d22b..8371d5ac694f469804ad55669fdedb8b
          this.playerInteractManager.a((WorldServer) world);
      }
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index f7a44104c09e4b2ebd5e1a3d7a08267c865c405d..d6a6321e936ce803a3e52e7420ba2bcd096f4649 100644
+index 84c2bc0bac4f388094693859ab7b6ced5e315c27..f35825d4a8574ea75b46be36b9929f8e12405217 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -208,6 +208,8 @@ public abstract class PlayerList {

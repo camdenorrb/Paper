@@ -87,7 +87,7 @@ index 829b4f28896bcb0eb6e48242bd00585eeaae62c2..3b379e83b79bd9b46dbdd4a48ac3842a
  
          this.checkBlockCollisions();
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index 52028387ae90b9e125b4522e5a3963a1119499e4..2dcdc428028a40c06b0ec1e50af76c16f051f084 100644
+index cc8f366ab9e44fccb0633f34f6e04b6a6952e751..aa5c991fbcfef2d7ef9537321ae2e7d072184644 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -1181,6 +1181,16 @@ public class CraftEventFactory {

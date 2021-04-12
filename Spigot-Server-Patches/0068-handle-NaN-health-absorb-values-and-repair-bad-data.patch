@@ -5,7 +5,7 @@ Subject: [PATCH] handle NaN health/absorb values and repair bad data
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/EntityLiving.java b/src/main/java/net/minecraft/world/entity/EntityLiving.java
-index 9b12e15a6c377ae90193596a35114dd452cf6e0c..acbd10432b09172f7541b2f4081d1aa9812194ac 100644
+index 082a3efb8c03e6a0a35411107f3cf3776dee14bf..c7b40800343edb2c2a68786afb828c9dc3e3627f 100644
 --- a/src/main/java/net/minecraft/world/entity/EntityLiving.java
 +++ b/src/main/java/net/minecraft/world/entity/EntityLiving.java
 @@ -702,7 +702,13 @@ public abstract class EntityLiving extends Entity {

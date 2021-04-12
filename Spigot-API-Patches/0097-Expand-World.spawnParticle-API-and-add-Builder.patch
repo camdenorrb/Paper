@@ -515,7 +515,7 @@ index b32de827cf8d1780861c271b4215276fdaab7165..1020002ff7127877db2d7e096f2c5217
       * Options which can be applied to redstone dust particles - a particle
       * color and size.
 diff --git a/src/main/java/org/bukkit/World.java b/src/main/java/org/bukkit/World.java
-index 27bbddac946879149ec43d428417c4707f6a9a8c..fe125ae7bbd7c9dde9db7838169e4819416e148d 100644
+index 7e69f3754bddb25341ca73f94f2be2b6803f836b..7f12e31747f409e5656982610a85f11cecccf5d9 100644
 --- a/src/main/java/org/bukkit/World.java
 +++ b/src/main/java/org/bukkit/World.java
 @@ -2592,7 +2592,57 @@ public interface World extends PluginMessageRecipient, Metadatable, net.kyori.ad

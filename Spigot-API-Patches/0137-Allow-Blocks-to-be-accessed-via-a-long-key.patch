@@ -48,7 +48,7 @@ index 369ce9ff6c8bb97a64a8e229115564412e6e7654..e700875beb76dadd55b585aca748338d
       * @return A new location where X/Y/Z are the center of the block
       */
 diff --git a/src/main/java/org/bukkit/World.java b/src/main/java/org/bukkit/World.java
-index 3f231c28842f02f80fd3136c36fe99b41726137f..d8674c773d61517f79d0fe77276392e47fd3e1e1 100644
+index 207f3a0977425879c21b6559e209dce22b78f062..bcfe74ec3e63baca19dfffb3ec532a2d6826fe33 100644
 --- a/src/main/java/org/bukkit/World.java
 +++ b/src/main/java/org/bukkit/World.java
 @@ -90,6 +90,38 @@ public interface World extends PluginMessageRecipient, Metadatable, net.kyori.ad

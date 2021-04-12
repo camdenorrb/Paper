@@ -22,7 +22,7 @@ it only impacts data sent from the client.
 Set -DPaper.maxSignLength=XX to change limit or -1 to disable
 
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index 593609ff38b01ae35e17dd65bf101e38d080dc3a..8f442eae6519c3d0658e6ed77ecfa7aa8161a0f2 100644
+index 9c258dfb78236045fae7a1b6bd6af04e467ad49b..bcaf4eb793d06bdb56e167c8480a7ed7af8f3fae 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -254,6 +254,7 @@ public class PlayerConnection implements PacketListenerPlayIn {

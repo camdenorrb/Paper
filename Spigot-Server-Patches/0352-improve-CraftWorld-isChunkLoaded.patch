@@ -9,7 +9,7 @@ waiting for the execution queue to get to our request; We can just query
 the chunk status and get a response now, vs having to wait
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
-index 3757ab5a2a0c6282d822c22415cc2861eba2f236..1a198ad238fb92c22a971e6fe540e9834eb65056 100644
+index 3cc25f573e51ac6e749baf76d80886406643fb10..ef012b51bc4555ab38ad06de694d8f7c946e911a 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 @@ -414,13 +414,13 @@ public class CraftWorld implements World {

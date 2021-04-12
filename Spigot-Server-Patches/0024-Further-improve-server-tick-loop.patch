@@ -12,7 +12,7 @@ Previous implementation did not calculate TPS correctly.
 Switch to a realistic rolling average and factor in std deviation as an extra reporting variable
 
 diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
-index 60a768ea8ffa965dd309c05bebddf5563b5e1992..2b3c32bda846b1a559f9a9d9d6870cb4ec6bfe12 100644
+index bbca853bee25dc561ab6d4c063c74bdd3005e58e..5d26208607d7c94febab1cfb56909a73d7900a78 100644
 --- a/src/main/java/net/minecraft/server/MinecraftServer.java
 +++ b/src/main/java/net/minecraft/server/MinecraftServer.java
 @@ -253,7 +253,7 @@ public abstract class MinecraftServer extends IAsyncTaskHandlerReentrant<TickTas

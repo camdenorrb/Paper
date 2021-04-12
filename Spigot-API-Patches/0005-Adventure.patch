@@ -931,7 +931,7 @@ index efb97712cc9dc7c1e12a59f5b94e4f2ad7c6b7d8..3024468af4c073324e536c1cb26beffb
                  return warning == null || warning.value();
              }
 diff --git a/src/main/java/org/bukkit/World.java b/src/main/java/org/bukkit/World.java
-index fd2af5fded9335602e263a2098760da0e64a87a3..44f01a3d8a461acab187367fc8876e0b73c92386 100644
+index 630a8732e08e636e156c3b3fe60aa3c130ceb99f..2ac5c7ac83945ed0fb3ea2affd6f953a68cf1978 100644
 --- a/src/main/java/org/bukkit/World.java
 +++ b/src/main/java/org/bukkit/World.java
 @@ -38,7 +38,7 @@ import org.jetbrains.annotations.Nullable;

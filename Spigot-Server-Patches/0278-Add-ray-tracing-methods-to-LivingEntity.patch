@@ -5,7 +5,7 @@ Subject: [PATCH] Add ray tracing methods to LivingEntity
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/EntityLiving.java b/src/main/java/net/minecraft/world/entity/EntityLiving.java
-index 189a00cb68ce9a9060117b79c5356ebb93d7fa62..9d8f92c313829bb32c17907bf2ef23d069517dc3 100644
+index 2b10ae84ee8e9f63382d732e8c051fc47f0c5d9f..a64b2953c43138491cdab3e3e24e2e7ed969e171 100644
 --- a/src/main/java/net/minecraft/world/entity/EntityLiving.java
 +++ b/src/main/java/net/minecraft/world/entity/EntityLiving.java
 @@ -3585,6 +3585,23 @@ public abstract class EntityLiving extends Entity {

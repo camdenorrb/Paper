@@ -281,7 +281,7 @@ index 0000000000000000000000000000000000000000..d381f91cf105bfc01846ada90da8971a
 +    }
 +}
 diff --git a/src/main/java/net/minecraft/server/level/ChunkProviderServer.java b/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
-index df71f8c42ac488153257614b58202bb5d7083251..2530c5ddfc8469329b411ad5c98ed718a3771890 100644
+index 1e74299bb3a368dcbc813408804d25cf58a75b0b..662d7f418e8acc9503ebf43e09410e7bd50f6bb3 100644
 --- a/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
 +++ b/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
 @@ -494,6 +494,7 @@ public class ChunkProviderServer extends IChunkProvider {
@@ -293,7 +293,7 @@ index df71f8c42ac488153257614b58202bb5d7083251..2530c5ddfc8469329b411ad5c98ed718
              this.serverThreadQueue.awaitTasks(completablefuture::isDone);
                  com.destroystokyo.paper.io.chunk.ChunkTaskManager.popChunkWait(); // Paper - async chunk debug
 diff --git a/src/main/java/net/minecraft/server/level/WorldServer.java b/src/main/java/net/minecraft/server/level/WorldServer.java
-index a67462e10c6f8cb0eecb9a81fdc55f353c258368..23f88bd794b2c738463e1aa1180b6826d33f3b77 100644
+index fe662ea8acb873aac2fc3b29addbef77854494ed..71967bc86c2c2ad6bcafc80a5f8ab31c33f022e6 100644
 --- a/src/main/java/net/minecraft/server/level/WorldServer.java
 +++ b/src/main/java/net/minecraft/server/level/WorldServer.java
 @@ -282,6 +282,12 @@ public class WorldServer extends World implements GeneratorAccessSeed {

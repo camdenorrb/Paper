@@ -6,7 +6,7 @@ Subject: [PATCH] Add FastUtil to Bukkit
 Doesn't expose to plugins, just allows Paper-API to use it for optimization
 
 diff --git a/pom.xml b/pom.xml
-index 61b8ee4e3e122dd2671f50ea3b432e4abd4600a2..12306d830c6889c2c9b12699abebe0411262aef6 100644
+index 2e471c2b5db5d4f6be5f2d1bcd541583aeaa993d..e3744ee042e0426a513c4fdf4abedafe85e31cd2 100644
 --- a/pom.xml
 +++ b/pom.xml
 @@ -32,6 +32,12 @@

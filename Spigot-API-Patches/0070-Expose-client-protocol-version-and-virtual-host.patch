@@ -57,7 +57,7 @@ index 0000000000000000000000000000000000000000..7b2af1bd72dfbcf4e962a982940fc49b
 +
 +}
 diff --git a/src/main/java/org/bukkit/entity/Player.java b/src/main/java/org/bukkit/entity/Player.java
-index 9cf7adf244335ac7dccbdf11f605a8c6910f7414..04f1a6513711dde8576c9b5c2b04619c56b48d8a 100644
+index f51a73ea04418e87100db0b13180bd175e503223..7aa55b3c7cbade2a55e65e2b7235768908765408 100644
 --- a/src/main/java/org/bukkit/entity/Player.java
 +++ b/src/main/java/org/bukkit/entity/Player.java
 @@ -32,7 +32,7 @@ import org.jetbrains.annotations.Nullable;

@@ -5,7 +5,7 @@ Subject: [PATCH] World view distance api
 
 
 diff --git a/src/main/java/org/bukkit/World.java b/src/main/java/org/bukkit/World.java
-index 7bf85151efddcbd561afb0fb2d423aa97ac176c1..61dfb057d94d89477d11b9e8d4be7c16032e25a9 100644
+index a3f34c2cd6b9683cc84b32886555628ebde79722..9ca40c87da7dd6a3f14a6d914f1440061bd21043 100644
 --- a/src/main/java/org/bukkit/World.java
 +++ b/src/main/java/org/bukkit/World.java
 @@ -3447,6 +3447,34 @@ public interface World extends PluginMessageRecipient, Metadatable, net.kyori.ad

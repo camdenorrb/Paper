@@ -20,7 +20,7 @@ index b6b9a471426ddf911a1f6bf38543c0304bfc31f6..12ac3608736b45447afe6b0d35ead144
  
          if (i >= -30000000 && j >= -30000000 && i < 30000000 && j < 30000000) {
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
-index 8bfb7a5bf6aa2ee568ceee3d2e4efe9dd57d9c1b..294a06c998a84523f8a2a0702aa6a9048d204722 100644
+index 2820216f6d9f9a7f6bda29abc78278eb79e49ea1..3cc25f573e51ac6e749baf76d80886406643fb10 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 @@ -343,6 +343,29 @@ public class CraftWorld implements World {

@@ -16,7 +16,7 @@ Refresh the player inventory when PlayerInteractEntityEvent is
 cancelled to avoid this problem.
 
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index c4f14fabc83a9cb13f8f82b651119e0ac7d8aa02..f727b6ffa0db33e59ce8e4ff64723c79b401ad70 100644
+index b3a51bd3229e3d492286acd97f49a1e7cf2630c5..e30e4b6a90a2e3629286af4952692abc565391f3 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -2221,6 +2221,7 @@ public class PlayerConnection implements PacketListenerPlayIn {

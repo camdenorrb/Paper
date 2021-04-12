@@ -90,7 +90,7 @@ index afca0038bb74ac53f07a25729a3c1542e244c6fd..d02281f954aac8d8b65f5d36ec70f035
          return tiles;
      }
 diff --git a/src/main/java/org/bukkit/craftbukkit/generator/CustomChunkGenerator.java b/src/main/java/org/bukkit/craftbukkit/generator/CustomChunkGenerator.java
-index 3e6d78a1fac2690ab7113f236a1442ae7ab6dd42..cbb241b420065e016e5bbc340d42c383d9da6478 100644
+index 7ce7e13032fe43b8998410937d07bfffa6f01527..fb7f68887efb1de8ff9167dd110fcb52627e9206 100644
 --- a/src/main/java/org/bukkit/craftbukkit/generator/CustomChunkGenerator.java
 +++ b/src/main/java/org/bukkit/craftbukkit/generator/CustomChunkGenerator.java
 @@ -33,7 +33,7 @@ import org.bukkit.generator.ChunkGenerator.ChunkData;

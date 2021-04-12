@@ -61,7 +61,7 @@ index 80c7ff059b78f55ec9c390bd728186a94074e603..94860c06717e8dcf969277562e88687e
          if (!(entity instanceof EntityComplexPart)) {
              EntityTypes<?> entitytypes = entity.getEntityType();
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index b5600711c29b00f2d7863c0493a21f5080127e9c..c9a8e5c04a10c28ce79368a783dfe3c8e3709583 100644
+index 599470c2158222be9202a96fc7d9bcf4b0ca0fe1..7305bba223229d9aa5315a8dff5fdc5af8faba6a 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -276,6 +276,12 @@ public abstract class PlayerList {

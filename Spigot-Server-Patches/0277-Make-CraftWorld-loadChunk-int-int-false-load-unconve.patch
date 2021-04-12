@@ -6,7 +6,7 @@ Subject: [PATCH] Make CraftWorld#loadChunk(int, int, false) load unconverted
 
 
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
-index be028a80247dfb3bf7c726b1868c6e5c5bd99264..bf7b572e455dfc9dfdacce9d2b93266ec5eac0b4 100644
+index d62522e731656e21ed3cc4f7aa4b6de3d84031fc..2c0eb753bcff2d043b374c6784b62b6d209091ab 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 @@ -508,7 +508,7 @@ public class CraftWorld implements World {

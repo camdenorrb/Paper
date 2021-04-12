@@ -5,7 +5,7 @@ Subject: [PATCH] ProfileWhitelistVerifyEvent
 
 
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 9db65b9d8f66ff83dcf32274fec98a425e7353d8..738a69a1a5765897fb3ca3b4ceb07cddade0d27f 100644
+index a892bcf08dddac90f01caec81229259e1070c3ea..ae877ea38a63ef8d0bd9855e9b9279475bb6c465 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -615,9 +615,9 @@ public abstract class PlayerList {

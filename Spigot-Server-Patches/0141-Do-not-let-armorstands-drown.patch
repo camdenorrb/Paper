@@ -5,7 +5,7 @@ Subject: [PATCH] Do not let armorstands drown
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/EntityLiving.java b/src/main/java/net/minecraft/world/entity/EntityLiving.java
-index 2eee92f74a7c82ec7df05db6df79743b4345cc86..3d6b8fd09c07e78c0d786dff9658eb0089f853cf 100644
+index aea3a4d73ae8af6e1a17965d6b15ecf7d90b248b..c17c0e1570d6ee2498d3f643df90a94e49ee2e3e 100644
 --- a/src/main/java/net/minecraft/world/entity/EntityLiving.java
 +++ b/src/main/java/net/minecraft/world/entity/EntityLiving.java
 @@ -338,6 +338,7 @@ public abstract class EntityLiving extends Entity {

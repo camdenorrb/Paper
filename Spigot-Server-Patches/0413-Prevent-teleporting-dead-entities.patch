@@ -5,7 +5,7 @@ Subject: [PATCH] Prevent teleporting dead entities
 
 
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index fef5b401a168c5b2be26c834e03b014d6231daf9..31fb6eda544568b14255aede0a981d065bdf3aee 100644
+index d150a2d0a0c0b28d701d64b7a7eaa6adbff9dc3c..0fa39f4f9a90a2fcbd5dd8d9d33f8d912b5c9e91 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -1467,6 +1467,10 @@ public class PlayerConnection implements PacketListenerPlayIn {

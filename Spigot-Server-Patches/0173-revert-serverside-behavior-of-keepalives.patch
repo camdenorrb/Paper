@@ -17,7 +17,7 @@ from networking or during connections flood of chunk packets on slower clients,
  at the cost of dead connections being kept open for longer.
 
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index 9b0d00220406cf20421607ae234f4c0d674681bb..54a5b988e5dc8eec35cf91d45f282926d81a0043 100644
+index c47ac6a3e9812bf8c1478558a29e837fe0104dec..83b8d0da2e5248f656edd9de3cec4a2c399821a2 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -221,7 +221,7 @@ public class PlayerConnection implements PacketListenerPlayIn {

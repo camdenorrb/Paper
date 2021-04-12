@@ -7,7 +7,7 @@ Provides counts without the ineffeciency of using .getEntities().size()
 which creates copy of the collections.
 
 diff --git a/src/main/java/org/bukkit/World.java b/src/main/java/org/bukkit/World.java
-index 6b5dbe4ea711807a1944cfe2aae2ce415d4f2638..789e070f6aee83e4b6426def784e05df98e1bc65 100644
+index 2ac5c7ac83945ed0fb3ea2affd6f953a68cf1978..2b8ed75e9ba72bd69d9f3e7767512e2921985b76 100644
 --- a/src/main/java/org/bukkit/World.java
 +++ b/src/main/java/org/bukkit/World.java
 @@ -40,6 +40,33 @@ import org.jetbrains.annotations.Nullable;

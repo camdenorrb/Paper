@@ -122,7 +122,7 @@ index 52256f72b00d3b868ef1a60e15a3836197c769d9..cd35b833d3047a38be980ee550641e87
  
          this.d.values().stream().map((jsonlistentry) -> {
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 349bd74e7e4d1dea9587e55cb6afc1968628ca01..3aaa6313a33865b9823aa38e5d0cce7edce04592 100644
+index 95cadb09b5a154d7dfe8144fab6c403547672287..1faae8a451c25cc8e37ef1907206a4f721477b13 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -618,7 +618,7 @@ public abstract class PlayerList {

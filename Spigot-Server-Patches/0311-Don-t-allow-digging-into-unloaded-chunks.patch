@@ -51,7 +51,7 @@ index cea19f4aafb3d81bf0dfcdac9103c03786fd5fc2..e7f762dc131ae40e36ff5e70b0394e0d
  
                  this.world.a(this.player.getId(), blockposition, -1);
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index 0cdfc38c3f07b28e1db0ee28952494c1950a698d..76bba793ea2afb52919bcf1cb430b9412fceb319 100644
+index 99cc7c40abcf959f77a4e7438ab2e0e18965582e..2fb691b873a9f67270862b0fe0a3246452512114 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -1517,6 +1517,11 @@ public class PlayerConnection implements PacketListenerPlayIn {

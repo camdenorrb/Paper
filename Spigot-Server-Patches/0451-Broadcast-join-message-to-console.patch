@@ -5,7 +5,7 @@ Subject: [PATCH] Broadcast join message to console
 
 
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index f58dd78e5984ace42ccd6121a5836fed29b82af0..b5600711c29b00f2d7863c0493a21f5080127e9c 100644
+index 48d4f8310d79d0eb78f4ace42c8778ee4addf7d0..599470c2158222be9202a96fc7d9bcf4b0ca0fe1 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -288,7 +288,9 @@ public abstract class PlayerList {

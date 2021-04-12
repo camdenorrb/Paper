@@ -7,7 +7,7 @@ bypass the need to get a player chunk, then get the either,
 then unwrap it...
 
 diff --git a/src/main/java/net/minecraft/server/level/ChunkProviderServer.java b/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
-index 4998fad49755c08e20ebfb1dc97b558e1cf10b50..2f172f38f817f48fe2e62235c3859b91e60bc0df 100644
+index 372e5268783a84effa8f9f06c3f85b182e209cb8..0c8864eeae6e3b449514f52d95c17f2e4a304f0e 100644
 --- a/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
 +++ b/src/main/java/net/minecraft/server/level/ChunkProviderServer.java
 @@ -470,6 +470,12 @@ public class ChunkProviderServer extends IChunkProvider {

@@ -6,7 +6,7 @@ Subject: [PATCH] Optimise IEntityAccess#getPlayerByUUID
 Use the world entity map instead of iterating over all players
 
 diff --git a/src/main/java/net/minecraft/server/level/WorldServer.java b/src/main/java/net/minecraft/server/level/WorldServer.java
-index 23f88bd794b2c738463e1aa1180b6826d33f3b77..f11617dc37771f65d574cd14ae9cea09103d11e1 100644
+index 71967bc86c2c2ad6bcafc80a5f8ab31c33f022e6..07b2f7f13044ace4db48274da8309c37aaa2d2c4 100644
 --- a/src/main/java/net/minecraft/server/level/WorldServer.java
 +++ b/src/main/java/net/minecraft/server/level/WorldServer.java
 @@ -289,6 +289,15 @@ public class WorldServer extends World implements GeneratorAccessSeed {

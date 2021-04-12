@@ -18,7 +18,7 @@ index a52cd6d0318e0fee28fc5d252a4b596b92860320..a17812943b5402684c68ddeac5408dc9
  
                  this.die();
 diff --git a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
-index ef161ccf0f1c51ce9f477869e6dc2d027d47874e..52028387ae90b9e125b4522e5a3963a1119499e4 100644
+index ba599f6b80f9453584883d84846a976c3a6718df..cc8f366ab9e44fccb0633f34f6e04b6a6952e751 100644
 --- a/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 +++ b/src/main/java/org/bukkit/craftbukkit/event/CraftEventFactory.java
 @@ -117,6 +117,7 @@ import org.bukkit.entity.ThrownPotion;

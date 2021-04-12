@@ -5,7 +5,7 @@ Subject: [PATCH] Prevent consuming the wrong itemstack
 
 
 diff --git a/src/main/java/net/minecraft/world/entity/EntityLiving.java b/src/main/java/net/minecraft/world/entity/EntityLiving.java
-index ecceb272028e1ae1dd40c0c39d6f687fccfabb58..903c3cfdaae3dd1750aa2f32f6cdbb423909eb47 100644
+index c98562980ca02c85f2f777a31983c164f2dd5e1e..06119a87338d48128ddd71fe8396e10b6e83744a 100644
 --- a/src/main/java/net/minecraft/world/entity/EntityLiving.java
 +++ b/src/main/java/net/minecraft/world/entity/EntityLiving.java
 @@ -3201,10 +3201,13 @@ public abstract class EntityLiving extends Entity {

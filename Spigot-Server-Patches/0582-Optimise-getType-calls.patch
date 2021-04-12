@@ -43,7 +43,7 @@ index aa20cecc93ac53ce7f1b956ea5065ae80b55cff5..fc65c138bab242d5b533381ea496a2a4
  
      @Override
 diff --git a/src/main/java/org/bukkit/craftbukkit/block/CraftBlock.java b/src/main/java/org/bukkit/craftbukkit/block/CraftBlock.java
-index c0238ba202b9f6c215788671652c768948acf753..44e1d80ec871142d3b498d3897d8ceb82452c1f2 100644
+index 29756fee1b1c343dbda5a4654b13f5433522cb54..2a3135c018f0b47a32c5a87698ff12fe521081f0 100644
 --- a/src/main/java/org/bukkit/craftbukkit/block/CraftBlock.java
 +++ b/src/main/java/org/bukkit/craftbukkit/block/CraftBlock.java
 @@ -214,7 +214,7 @@ public class CraftBlock implements Block {

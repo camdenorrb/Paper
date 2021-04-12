@@ -37,7 +37,7 @@ index c4f2c164927db4917f85a8bd65fdbf00e9b062a3..b420e93590d0f109ad13b8ddaa5cd093
      public EntityPlayer(MinecraftServer minecraftserver, WorldServer worldserver, GameProfile gameprofile, PlayerInteractManager playerinteractmanager) {
          super(worldserver, worldserver.getSpawn(), worldserver.v(), gameprofile);
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index d44f3d1dea2a52c8a82fc1551663e125594432ea..9ec4316c8d517f8af9f36f586e833b5a3ad30895 100644
+index 9b903f509dc31ac50de37692ffa64a2f9d4a01c4..2380b7c82d012e466172b32b04601f5c691ca0c5 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -447,6 +447,7 @@ public class PlayerConnection implements PacketListenerPlayIn {

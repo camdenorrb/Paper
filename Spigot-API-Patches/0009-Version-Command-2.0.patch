@@ -73,7 +73,7 @@ index dd0b80c268644ac714311501215f45166092b856..bed84606a111648ce39c2e6683c0ca5a
      // Paper end
  }
 diff --git a/src/main/java/org/bukkit/command/defaults/VersionCommand.java b/src/main/java/org/bukkit/command/defaults/VersionCommand.java
-index 2305eb40832a82159cd89162934870cf57e1aa0e..5819797b1d6223c4b4ac7a60bdc710ba69cee313 100644
+index 2305eb40832a82159cd89162934870cf57e1aa0e..4c2ddc722a9dc4011906ad9530b13fa9be1d3ff9 100644
 --- a/src/main/java/org/bukkit/command/defaults/VersionCommand.java
 +++ b/src/main/java/org/bukkit/command/defaults/VersionCommand.java
 @@ -1,5 +1,6 @@

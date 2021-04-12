@@ -7,7 +7,7 @@ Will not run if max entity craming is disabled and
 the max collisions per entity is less than or equal to 0
 
 diff --git a/src/main/java/net/minecraft/world/entity/EntityLiving.java b/src/main/java/net/minecraft/world/entity/EntityLiving.java
-index 89abfdd32f47eed07080ff9d70440f0940628b4d..b33f57bc72333a2fee785cb95eb6be09892b136d 100644
+index 86c6a8fd4511dfe426cc1651d289f38b467d3029..dc9e12c38d1682f6c4558ca07b781de2226c0621 100644
 --- a/src/main/java/net/minecraft/world/entity/EntityLiving.java
 +++ b/src/main/java/net/minecraft/world/entity/EntityLiving.java
 @@ -2944,10 +2944,16 @@ public abstract class EntityLiving extends Entity {

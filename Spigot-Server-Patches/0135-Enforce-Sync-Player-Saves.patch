@@ -7,7 +7,7 @@ Saving players async is extremely dangerous. This will force it to main
 the same way we handle async chunk loads.
 
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 95ff827b1d5704d279d258bdfb43fd33ec7a9187..d7cf89f4603779ce9a2e9a6f837a81684f209826 100644
+index f9e9e51b0b0dcbf2a8424c7c14bd2cbb0d899e82..eb5c22d8af3a3cfadd581d641010942caa6bed54 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -1047,11 +1047,13 @@ public abstract class PlayerList {

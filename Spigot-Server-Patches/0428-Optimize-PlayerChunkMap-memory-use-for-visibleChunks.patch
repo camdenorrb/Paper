@@ -243,7 +243,7 @@ index 12cfe9f3c89316557e94c8b944b4f82277fb8877..8050be2ed04fb0b8141f92595680407b
          while (objectbidirectionaliterator.hasNext()) {
              Entry<PlayerChunk> entry = (Entry) objectbidirectionaliterator.next();
 diff --git a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
-index 2d142699ebe2062947ba3eb228aaad4468c11371..adcb2bd279f1f87d174556cb1b8aac497c11d7d3 100644
+index 630c709c9e5d3e98e1e895ea91f53aea5b9c0eb2..9f38e32a602adac2cb4c1fe48c60628e70431c7b 100644
 --- a/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 +++ b/src/main/java/org/bukkit/craftbukkit/CraftWorld.java
 @@ -294,6 +294,7 @@ public class CraftWorld implements World {

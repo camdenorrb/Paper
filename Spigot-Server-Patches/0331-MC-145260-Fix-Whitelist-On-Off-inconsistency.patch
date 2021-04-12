@@ -11,7 +11,7 @@ everything to the Whitelist object.
 https://github.com/PaperMC/Paper/issues/1880
 
 diff --git a/src/main/java/net/minecraft/server/players/PlayerList.java b/src/main/java/net/minecraft/server/players/PlayerList.java
-index 3ef632928bf93a8af5eccada3b1cc76354ed5617..317c921eaf734e890706f962b29233e3306a13be 100644
+index e58784539bb1cc66581317c7167ae3326d5622ec..8183a9dde130fafcee4f342738e9e78e9e67cbec 100644
 --- a/src/main/java/net/minecraft/server/players/PlayerList.java
 +++ b/src/main/java/net/minecraft/server/players/PlayerList.java
 @@ -55,6 +55,7 @@ import net.minecraft.network.protocol.game.PacketPlayOutViewDistance;

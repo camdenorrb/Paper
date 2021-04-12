@@ -5,7 +5,7 @@ Subject: [PATCH] Add PlayerJumpEvent
 
 
 diff --git a/src/main/java/net/minecraft/server/network/PlayerConnection.java b/src/main/java/net/minecraft/server/network/PlayerConnection.java
-index 62fb502adf8cd7095e4826eb72ab39cf0bcc6d55..c096c461a2ffe8efdb02242f319a1612f7c2901d 100644
+index 42a90415f01438069157d75a2b402d9b368b920e..75dcbe4156e71af07a127d0bb5cc229741b9b764 100644
 --- a/src/main/java/net/minecraft/server/network/PlayerConnection.java
 +++ b/src/main/java/net/minecraft/server/network/PlayerConnection.java
 @@ -1166,7 +1166,34 @@ public class PlayerConnection implements PacketListenerPlayIn {
